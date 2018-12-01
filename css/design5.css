@@ -1,0 +1,25 @@
+@charset "UTF-8";
+.cl_output{
+  width:200px;
+  margin: auto;
+  margin-top: 5px;
+  font-weight: bold;
+  text-align: center;
+  padding : 5px;
+  color:red;
+  background-color: yellow;
+}
+
+.cl_textbox{
+  width: 300px;
+  height: 30px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 5px;
+  border-bottom: 1px solid gray;
+}
+
+.cl_textbox > #id_textbox1{
+  height:20px;
+  width:150px;
+}
