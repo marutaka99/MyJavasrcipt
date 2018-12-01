@@ -3,16 +3,16 @@
   <head>
     <meta charset="UTF-8">
     <title>Javascript05</title>
+    <link rel="stylesheet" href="../css/design5.css">
   </head>
   <body>
     <script type="text/javascript" src="../js/buttonclick.js">
     </script>
 
-    <form name="form1" id="id_form1" class="textbox" action="" >
-      <input type="text" id="id_textbox1" name="textbox1" value="" placeholder="名前を入力">
-      <input type="button" value="クリック" onclick="onButtonClick()">
+    <form name="form1" id="id_form1" class="cl_form" action="" >
+      <input type="text" id="id_textbox1" name="textbox1" value="" placeholder="名前を入力" class="cl_textbox">
+      <input type="button" value="クリック" onclick="onButtonClick()" class="cl_button">
     </form>
-    <hr/>
-    <label id="output" >テキストボックスの値を表示</label>
+    <div id="output" class="cl_output">テキストボックスの値を表示</div>
   </body>
 </html>
