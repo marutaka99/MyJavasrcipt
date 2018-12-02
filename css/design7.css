@@ -1,0 +1,16 @@
+.cl_button{
+  width:50px;
+}
+.cl_button_clear{
+  width:50px;
+  color:red;
+}
+.cl_button_equal{
+  width:50px;
+  background-color: yellow;
+}
+
+.cl_display{
+  width: 150px;
+  text-align: right;
+}
