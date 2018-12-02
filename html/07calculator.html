@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>07 calculator</title>
+    <link rel="stylesheet" href="../css/design7.css">
+    <script type="text/javascript" src="../js/calculator.js"></script>
+  </head>
+  <body>
+    <form name="formCalc" >
+      <table id="calcTable">
+        <tbody>
+          <tr>
+            <td colspan="3"><input type="text" name="calcDisplay" value="0"  class="cl_display"></td>
+            <td><input type="button"  value="C" onclick="calc('C')" class="cl_button_clear"></td>
+          </tr>
+          <tr>
+            <td><input type="button" value="7" onclick="calc('7')" class="cl_button"></td>
+            <td><input type="button" value="8" onclick="calc('8')" class="cl_button"></td>
+            <td><input type="button" value="9" onclick="calc('9')" class="cl_button"></td>
+            <td><input type="button" value="/" onclick="calc('/')" class="cl_button"></td>
+          </tr>
+          <tr>
+            <td><input type="button" value="4" onclick="calc('4')" class="cl_button"></td>
+            <td><input type="button" value="5" onclick="calc('5')" class="cl_button"></td>
+            <td><input type="button" value="6" onclick="calc('6')" class="cl_button"></td>
+            <td><input type="button" value="*" onclick="calc('*')" class="cl_button"></td>
+          </tr>
+          <tr>
+            <td><input type="button" value="1" onclick="calc('1')" class="cl_button"></td>
+            <td><input type="button" value="2" onclick="calc('2')" class="cl_button"></td>
+            <td><input type="button" value="3" onclick="calc('3')" class="cl_button"></td>
+            <td><input type="button" value="-" onclick="calc('-')" class="cl_button"></td>
+          </tr>
+          <tr>
+            <td><input type="button" value="0" onclick="calc('0')" class="cl_button"></td>
+            <td><input type="button" value="." onclick="calc('.')" class="cl_button"></td>
+            <td><input type="button" value="+" onclick="calc('+')" class="cl_button"></td>
+            <td><input type="button" value="=" onclick="calc('=')" class="cl_button_equal"></td>
+          </tr>
+
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>
