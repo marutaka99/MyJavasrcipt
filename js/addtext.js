@@ -2,7 +2,11 @@ var count = 0;
 
 function addText(){
   var p = document.createElement('p'),
-      text = document.createTextNode('hello world');
+      text = document.createTextNode(count);
+      p.classList.add('box');
+      p.addEventListener('click', function(){
+        p.classList.toggle('circle');
+      })
   document.body.appendChild(p).appendChild(text);
   count++;
   display(count);
@@ -10,8 +14,10 @@ function addText(){
 
 function delText(){
   var e = document.querySelector('p');
-  document.body.removeChild(e);
-  count--;
+  if (count > 0) {
+    document.body.removeChild(e);
+    count--;
+  }
   display(count);
 }
 function display(count){
