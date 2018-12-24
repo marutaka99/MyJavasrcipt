@@ -1,0 +1,37 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "javascript test practice",
+  "main": "index.js",
+  "scripts": {
+    "test-normal": "mocha test/test.js",
+    "test": "mocha test/test.js --require intelli-espower-loader",
+    "test-cov": "istanbul cover --print both _mocha -- test/test.js --require intelli-espower-loader",
+    "eslint": "eslint ."
+  },
+  "author": "marutaka99",
+  "license": "UNLICENSED",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tea3/js-test-practice.git"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "intelli-espower-loader": "^1.0.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.2",
+    "power-assert": "^1.4.4"
+  },
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/tea3/js-test-practice/issues"
+  },
+  "homepage": "https://github.com/tea3/js-test-practice#readme",
+  "keywords": [
+    "test"
+  ]
+}
