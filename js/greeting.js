@@ -1,6 +1,8 @@
-var person;
+/* eslint-disable no-unused-vars */
+let person;
 
 function message(person){
-  var msg = 'Hello He\'s '+person;
+  const msg = 'Hello He\'s '+person;
   return msg;
 }
+/* eslint-disable no-unused-vars */

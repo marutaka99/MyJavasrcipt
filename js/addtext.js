@@ -2,11 +2,11 @@ var count = 0;
 
 function addText(){
   var p = document.createElement('p'),
-      text = document.createTextNode(count);
-      p.classList.add('box');
-      p.addEventListener('click', function(){
-        p.classList.toggle('circle');
-      })
+    text = document.createTextNode(count);
+  p.classList.add('box');
+  p.addEventListener('click', function(){
+    p.classList.toggle('circle');
+  });
   document.body.appendChild(p).appendChild(text);
   count++;
   display(count);
@@ -21,6 +21,6 @@ function delText(){
   display(count);
 }
 function display(count){
-  dsp = document.getElementById("id_count");
-  dsp.innerText = "HelloWorld：" + count + "個";
+  let dsp = document.getElementById('id_count');
+  dsp.innerText = 'HelloWorld：' + count + '個';
 }

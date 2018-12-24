@@ -14,9 +14,11 @@ module.exports = {
         "react"
     ],
     "rules": {
+        "no-console": "off",
+        "no-unused-vars": 0,
         "indent": [
             "error",
-            "tab"
+            2
         ],
         "linebreak-style": [
             "error",
@@ -24,11 +26,14 @@ module.exports = {
         ],
         "quotes": [
             "error",
-            "double"
+            "single"
         ],
         "semi": [
             "error",
             "always"
-        ]
+        ],
+        "extends": "airbnb",
+        "no-undef": "warn",
+        "no-unused-vars": "warn",
     }
 };
