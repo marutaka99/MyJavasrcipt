@@ -50,7 +50,7 @@
       - 13dice.html
       - design13.css
       - dice.js
-15. npm run eslinｔ設定用にnpm install
+15. npm run eslint設定用にnpm install
     - 2018/12/24
-15. 学習用にスクリプトを記載
+16. 学習用にスクリプトを記載
     - 2018/12/30
