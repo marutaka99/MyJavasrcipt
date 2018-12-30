@@ -34,23 +34,24 @@
     - 09addtext.html
     - addtext.js
 10. 電卓のキーボード入力に対応
-  - 2018/12/9
-    - calculator.js
+    - 2018/12/9
+      - calculator.js
 11. p要素に、div要素と、クリックして、変化するように変更
-  - 2018/12/9
-    - 09addtext.html
-    - addtext.js
-    - design9
+    - 2018/12/9
+      - 09addtext.html
+      - addtext.js
+      - design9
 12. テキストボックスとプルダウンを`<li>`要素で追加する処理
-  - 2018/12/16
-    - 10addList.html
-    - addList.js
+    - 2018/12/16
+      - 10addList.html
+      - addList.js
 13. サイコロを作成
-  - 2018/12/16
-    - 13dice.html
-    - design13.css
-    - dice.js
-15. npm run eslinｔ設定用にnpm install
-  - 2018/12/24
-15. 学習用にスクリプトを記載
-  - 2018/12/30
+    - 2018/12/16
+      - 13dice.html
+      - design13.css
+      - dice.js
+15. npm run eslint設定用にnpm install
+    - 2018/12/24
+16. 学習用にスクリプトを記載
+    - 2018/12/30
+
