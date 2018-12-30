@@ -141,7 +141,7 @@ try {
 let x1 = 0;
 let y = 0;
 try {
-  if (y === 0) { throw new Error('０で除算しようとした')};
+  if (y === 0) { throw new Error('０で除算しようとした');}
   let z = x1 /y ;
 
 } catch(e) {
