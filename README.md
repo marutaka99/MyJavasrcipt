@@ -1,61 +1,62 @@
 # test
 1. console.logにHelloWorldを出力
-  - 2018/12/1
-    - 01HelloWorld.html
+    - 2018/12/1
+      - 01HelloWorld.html
 2. 01のjavascript処理を外部ファイルに移動
-  - 2018/12/1
-    - 02HelloWorld.html
-    - helloworld.js
+    - 2018/12/1
+      - 02HelloWorld.html
+      - helloworld.js
 3. 引数に名前を取得し、別ファイルのスクリプトから、名前を画面出力
-  - 2018/12/1
-    - 03message.html
-    - greeting.js
+    - 2018/12/1
+      - 03message.html
+      - greeting.js
 4. エスケープ文字を反映
-  - 2018/12/1
-    - 03message.html
-    - greeting.js
+    - 2018/12/1
+      - 03message.html
+      - greeting.js
 5. テキストボックスの入力値をボタンクリックで、表示する
-  - 2018/12/1
-    - 05textbox.html
-    - buttonclick.js
+    - 2018/12/1
+      - 05textbox.html
+      - buttonclick.js
 6. 上記ファイルにcssを当てる
-  - 2018/12/1
-    - 05textbox.html
+    - 2018/12/1
+      - 05textbox.html
 7. 簡易電卓を作成
-  - 2018/12/2
-    - 07calculator.html
-    - calculator.js
+    - 2018/12/2
+      - 07calculator.html
+      - calculator.js
 8. キーボードからの文字入力を取得
-  - 2018/12/2
-    - 08inputKeyboard.html
-    - inputKeyboard.js
+    - 2018/12/2
+      - 08inputKeyboard.html
+      - inputKeyboard.js
 9. p要素をボタンクリックで追加、削除処理
-  - 2018/12/2
-    - 09addtext.html
-    - addtext.js
+    - 2018/12/2
+      - 09addtext.html
+      - addtext.js
 10. 電卓のキーボード入力に対応
-  - 2018/12/9
-    - calculator.js
+    - 2018/12/9
+      - calculator.js
 11. p要素に、div要素と、クリックして、変化するように変更
-  - 2018/12/9
-    - 09addtext.html
-    - addtext.js
-    - design9
+    - 2018/12/9
+      - 09addtext.html
+      - addtext.js
+      - design9
 12. テキストボックスとプルダウンを`<li>`要素で追加する処理
-  - 2018/12/16
-    - 10addList.html
-    - addList.js
+    - 2018/12/16
+      - 10addList.html
+      - addList.js
 13. サイコロを作成
-  - 2018/12/16
-    - 13dice.html
-    - design13.css
-    - dice.js
+    - 2018/12/16
+      - 13dice.html
+      - design13.css
+      - dice.js
 15. npm run eslint設定用にnpm install
     - 2018/12/24
 16. 学習用にスクリプトを記載
-  - 2018/12/30
+    - 2018/12/30
 17. 学習用にスクリプトを記載 関数
-  - 2018/12/31
+    - 2018/12/31
 18. 学習用にスクリプトを記載 オブジェクト指向
-  - 2018/12/31
-
+    - 2018/12/31
+19. 学習用にスクリプトを記載 DOM
+    - 2019/01/01
