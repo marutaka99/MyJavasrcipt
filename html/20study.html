@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>20 study</title>
+  </head>
+  <body>
+    <form>
+      <label for="name">名前：</label>
+      <input id="name" name="name" type="text" size="30" />
+      <input id="btn" type="button" value="送信" />
+    </form>
+    <p>--------------------------------</p>
+    <div>
+      好きな食べ物は？：
+      <label><input type="checkbox" name="food" value="ラーメン" />
+        ラーメン</label>
+      <label><input type="checkbox" name="food" value="餃子" />
+        餃子</label>
+      <label><input type="checkbox" name="food" value="焼き肉" />
+        焼き肉</label>
+      <input id="btn2" type="button" value="送信" />  
+    </div>
+    <p>--------------------------------</p>
+    <div><label><input type="checkbox" id="onoff">
+      checkbox</label></div>
+    <p>--------------------------------</p>
+    <form>
+      <div>
+        好きな食べ物は？：
+        <label><input type="radio" name="food2" value="ラーメン" />
+          ラーメン</label>
+        <label><input type="radio" name="food2" value="餃子" />
+          餃子</label>
+        <label><input type="radio" name="food2" value="焼き肉" />
+          焼き肉</label>
+        <input id="btn3" type="button" value="送信" />
+      </div>
+    </form>
+    <p>--------------------------------</p>
+    <form>
+      <div>
+        <label for="food3">好きな食べ物は？：</label>
+        <select id="food3" multiple>
+          <option value="ラーメン">ラーメン</option>
+          <option value="餃子">餃子</option>
+          <option value="焼き肉">焼き肉</option>
+        </select>
+        <input id="btn4" type="button" value="送信" />
+      </div>
+    </form>
+    <p>--------------------------------</p>
+    <form>
+      <label for="file">ファイル：</label>
+      <input id="file" name="file" type="file" multiple />
+    </form>
+    <p>--------------------------------</p>
+    <form>
+      <label for="file2">ファイル：</label>
+      <input id="file2" type="file" />
+    </form>
+    <hr />
+    <pre id="result"></pre>
+    <p>--------------------------------</p>
+    <form>
+      <label for="file3">ファイル：</label>
+      <input id="file3" name="file3" type="file" />
+    </form>
+    <hr />
+    <img id="result2" />
+    <script type="text/javascript" src="../js/20test.js"></script> 
+  </body>
+</html>
