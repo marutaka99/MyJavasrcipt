@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   Counter.prototype.show = function() {
     console.log(this.elem.id + 'は' + this.count + '回クリックされました。');
-  }
+  };
 
   var c = new Counter(document.getElementById('btn5'));
 }, false);

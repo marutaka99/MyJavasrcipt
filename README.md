@@ -87,3 +87,6 @@
 21. 学習用にスクリプトを記載 DOM
     - make scripts for learning (DOM)
     - 2019/01/01
+22. 学習用にスクリプトを記載 クライアントサイド
+    - make scripts for learning (Client side)
+    - 2019/01/01
