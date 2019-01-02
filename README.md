@@ -90,3 +90,6 @@
 22. 学習用にスクリプトを記載 クライアントサイド
     - make scripts for learning (Client side)
     - 2019/01/01
+23. 学習用にスクリプトを記載 クライアントサイド
+    - make scripts for learning (Client side)
+    - 2019/01/02
