@@ -1,12 +1,12 @@
-var http = require('http');
+let http = require('http');
  
-var server = http.createServer();
+let server = http.createServer();
 server.on('request', doRequest);
 server.listen(1234);
 
 
 function doRequest(req, res) {
   res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.write('Hello!');
+  res.write('Hello world!');
   res.end();
 }
