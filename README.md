@@ -103,5 +103,5 @@
     - use `HTML` and  `node.js`
     - 2019/01/03
 27. `node.js` で HTML表示 テンプレート使用
-    - use templete by`node.js` 
+    - use templete by`node.js`
     - 2019/01/03
