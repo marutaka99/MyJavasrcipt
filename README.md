@@ -111,3 +111,6 @@
 29. `node.js` で 入力値を取得
     - get input value by`node.js`
     - 2019/01/03
+30. `ejs`追加
+    - add `ejs`
+    - 2019/01/03
