@@ -96,4 +96,7 @@
 24. おみくじ作成
     - make `omikuji`
     - 2019/01/03
+25. `node.js` でHelloWord作成
+    - add helloworld `node.js`
+    - 2019/01/03
 
