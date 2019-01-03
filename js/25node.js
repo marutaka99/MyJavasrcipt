@@ -1,12 +1,8 @@
 let http = require('http');
- 
-let server = http.createServer();
-server.on('request', doRequest);
-server.listen(1234);
 
+http.createServer(function (req , res) {
+  res.setHeader('Content-Type','text/plain');
+  res.end('Hello world\n');
+}).listen(1337, '127.0.0.1');
 
-function doRequest(req, res) {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.write('Hello world!');
-  res.end();
-}
+console.log('server running at http://127.0.0.1:1337/');
