@@ -117,3 +117,6 @@
 31. cookie使用
     - use cookie
     - 2019/01/03
+32. cookie使用2
+    - use cookie2
+    - 2019/01/03
