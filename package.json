@@ -29,7 +29,9 @@
     "mocha": "^3.4.2",
     "power-assert": "^1.4.4"
   },
-  "dependencies": {},
+  "dependencies": {
+    "ejs": "^2.6.1"
+  },
   "bugs": {
     "url": "https://github.com/tea3/js-test-practice/issues"
   },
