@@ -120,3 +120,6 @@
 32. cookie使用2
     - use cookie2
     - 2019/01/03
+33. 5秒当てゲーム作成
+    - Create game to hit 5 seconds
+    - 2019/01/04
