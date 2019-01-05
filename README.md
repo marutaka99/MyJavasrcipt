@@ -123,3 +123,6 @@
 33. 5秒当てゲーム作成
     - Create game to hit 5 seconds
     - 2019/01/04
+34. 割り勘電卓作成
+    - Create a split calculator
+    - 2019/01/05
