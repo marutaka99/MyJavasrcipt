@@ -126,3 +126,6 @@
 34. 割り勘電卓作成
     - Create a split calculator
     - 2019/01/05
+35. サンプルホームページ作成
+    - Create sanple homepage
+    - 2019/01/05
