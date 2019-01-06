@@ -132,3 +132,6 @@
 36. パスワードジェネレータ作成
     - Create password generator
     - 2019/01/06
+37. 文字列チェッカー作成
+    - Create string checker
+    - 2019/01/06
