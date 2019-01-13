@@ -135,3 +135,6 @@
 37. 文字列チェッカー作成
     - Create string checker
     - 2019/01/06
+38. cssで吹き出しを作成
+    - Create ballon with css
+    - 2019/01/13
