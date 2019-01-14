@@ -1,0 +1,125 @@
+
+body {
+  /* background: slategray; */
+}
+
+#eyecatch {
+  background: url('../img/eyecatch.jpg') no-repeat;
+  background-size: cover;
+  background-position: 50% 20%;
+  height: 100px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  /* background: pink; */
+}
+
+header {
+  background: tomato;
+}
+
+ul#menu {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  font-size: 0;
+}
+
+ul#menu > li {
+  display: inline-block;
+}
+
+ul#menu > li > a{
+  display: inline-block;
+  width: 80px;
+  height: 40px;
+  background: orange;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+}
+
+ul#menu > li > a:hover{
+  opacity: 0.5;
+  transition: 0.8s
+}
+
+main .product {
+  position: relative;
+  display: inline-block;
+}
+
+main .price {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 10px;
+  padding: 4px;
+  font-weight: bold;
+  background: white;
+}
+
+
+main {
+  background: skyblue;
+  padding: 15px 0;
+}
+
+ul#lessons {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul#lessons h2 , ul#lessons p{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+ul#lessons .lesson_img {
+  float: left;
+  width: 50px;
+}
+
+ul#lessons .lesson_info {
+  float: right;
+  width: 440px;
+}
+
+ul#lessons li:not(:last-child) {
+  overflow: hidden;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+
+#left {
+  background: limegreen;
+  float: left;
+  width: 100px;
+}
+
+#center {
+  background: seagreen;
+  margin: 0 100px;
+}
+
+#right {
+  background: lightgreen;
+  float: right;
+  width: 100px;
+}
+
+.clear {
+  overflow: hidden;
+}
+
+footer {
+  clear: both;
+  background: slategray;
+}
