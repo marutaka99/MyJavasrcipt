@@ -141,3 +141,6 @@
 39. cssの勉強
     - stydy css
     - 2019/01/14
+40. アロー関数、三項演算子の学習
+    - stydy allow function and ternary operator
+    - 2019/01/14
