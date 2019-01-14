@@ -144,3 +144,6 @@
 40. アロー関数、三項演算子の学習
     - stydy allow function and ternary operator
     - 2019/01/14
+41. オブジェクトの学習
+    - stydy objects
+    - 2019/01/14
