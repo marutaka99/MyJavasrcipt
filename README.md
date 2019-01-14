@@ -138,3 +138,6 @@
 38. cssで吹き出しを作成
     - Create ballon with css
     - 2019/01/13
+39. cssの勉強
+    - stydy css
+    - 2019/01/14
