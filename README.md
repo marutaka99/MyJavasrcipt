@@ -156,3 +156,6 @@
 44. カウントダウンタイマーの製造
     - make countdown timer
     - 2019/01/28
+45. Promise.allの使用
+    - use Promise.all
+    - 2019/02/10
