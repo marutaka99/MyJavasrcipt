@@ -159,3 +159,9 @@
 45. Promise.allの使用
     - use Promise.all
     - 2019/02/10
+46. javascriptno学習
+    - study javascript
+    - 2019/02/17
+47. スマホ向けサイトの作成
+    - make smartphone site
+    - 2019/02/17
